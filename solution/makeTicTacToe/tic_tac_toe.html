@@ -1,0 +1,51 @@
+<!-- This is the main index.html -->
+<!-- Homepage -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CS Club Demo</title>
+    <link rel="stylesheet" href="../assets/css/styles.css">
+    <link rel="stylesheet" href="./css/tic_tac_toe_styles.css">
+</head>
+<body>
+    <!-- header -->
+    <div id="main_container">
+        <header>
+            <a href="../index.html">
+                <img id="logo" src="../assets/images/school_log_transparent.png" alt="">
+            </a>
+        </header>
+        <h1>Tic Tac Toe Game</h1>
+        <div class="board_container">
+            <h3 id="game_message"></h3>
+            <div class="row" id="row_1">
+                <img class="block col_1" alt="">
+                <img class="block col_2" alt="">
+                <img class="block col_3" alt="">
+            </div>
+            <!-- delete before -->
+            <div class="row" id="row_2">
+                <img class="block col_1" alt="">
+                <img class="block col_2" alt="">
+                <img class="block col_3" alt="">
+            </div>
+            <div class="row" id="row_3">
+                <img class="block col_1" alt="">
+                <img class="block col_2" alt="">
+                <img class="block col_3" alt="">
+            </div>
+            <!-- copy and paste the whole div container with class="row" to make row 2 and row 3-->
+            <!-- be sure to change the ids to id="row_2" and id="row_3" -->
+
+            <!-- Add a reset button here -->
+            <div class="button_container">
+                <button id="reset" class="cta">Reset</button>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="./javascript/rules.js"></script>
+</html>

@@ -1,0 +1,60 @@
+#game_container {
+    margin: auto;
+}
+
+#game_message {
+    text-align: center;
+}
+
+.number {
+    align-items: center;
+    background: none;
+    border: solid 2px #24A0ED;
+    border-radius: 10px;
+    color: white;
+    display: flex;
+    font-weight: bold;
+    justify-content: center;
+    height: 100px;
+    margin: 5px;
+    width: 100px;
+}
+
+.number:hover {
+    cursor: pointer;
+    background-color: #24A0ED;
+}
+
+.row {
+    display: flex;
+}
+
+#end_game {
+    display: flex;
+    justify-content: space-between;
+}
+
+#score {
+    font-weight: bold;
+    display: inline;
+}
+
+#play_again {
+    background-color: #24A0ED;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    display: flex;
+    font-size: 16px;
+    font-weight: bold;
+    height: 60px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px 20px;
+}
+
+.invisible {
+    display: none;
+}
